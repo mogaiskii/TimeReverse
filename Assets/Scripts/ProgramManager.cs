@@ -11,7 +11,7 @@ public class ProgramManager : MonoBehaviour
     public float idleOkTime = 2f;
     private float _idleTimer = 2f;
     public bool freeze { get; private set; }
-    private float freezeTimer = 4.5f;
+    private float freezeTimer = 1.5f;
 
     void Awake()
     {

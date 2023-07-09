@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a84298cad51da214db594fabf6ceeb48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c854951281d0c0c46aa76c1eae9d723b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,7 +105,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -130,6 +130,9 @@ MonoBehaviour:
   soundSource: {fileID: 6369947371830986817}
   openSound: {fileID: 8300000, guid: a8a0460fa046fbf42bb6d6991741af0e, type: 3}
   closeSound: {fileID: 8300000, guid: 7e5b429e6a71b064eba8caeb434ae230, type: 3}
+  StateOn: {fileID: 21300000, guid: c854951281d0c0c46aa76c1eae9d723b, type: 3}
+  StateOff: {fileID: 21300000, guid: 148ea6395ea6f654e8637e99fab4e0f5, type: 3}
+  rendererer: {fileID: 61807926818566950}
 --- !u!82 &6369947371830986817
 AudioSource:
   m_ObjectHideFlags: 0

@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5b553fa4e62ce36439a1523152e54fbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ab93bdd459403104c8814cc025cef2ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -129,6 +129,9 @@ MonoBehaviour:
   state: 0
   collider2d: {fileID: -8065292101166140804}
   spriteRenderer: {fileID: 4885527585333985181}
+  StateOn: {fileID: 21300000, guid: ab93bdd459403104c8814cc025cef2ca, type: 3}
+  StateOff: {fileID: 21300000, guid: d4f56fc95daf85b4e9bfe11ad998d081, type: 3}
+  rendererer: {fileID: 4885527585333985181}
 --- !u!114 &7283799322799140702
 MonoBehaviour:
   m_ObjectHideFlags: 0

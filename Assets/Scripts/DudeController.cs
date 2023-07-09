@@ -23,6 +23,8 @@ public class DudeController : MonoBehaviour
     public float soundEffectiveLength = 0.15f;
     private float soundCooldown = 0;
 
+    public SpriteRenderer rendererere;
+
     private void Start()
     {
         _lastPosition = transform.position;
@@ -40,6 +42,8 @@ public class DudeController : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         if (_tmpBlockRight && moveX > 0) moveX = 0;
         else _tmpBlockRight = false;
+        if (moveX < 0) rendererere.flipX = true;
+        else if (moveX > 0) rendererere.flipX = false;
 
         float moveY = Input.GetAxisRaw("Vertical");
         _moveDirection = new Vector2(moveX, moveY).normalized * speed;
